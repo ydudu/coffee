@@ -80,9 +80,10 @@ a:hover {
 }
 
 .machine {
-    height: 100%;
-    width: 100%;
     padding: 0;
+    height: 470px;
+    position: relative;
+    z-index: 100;
 }
 
 .changeImg {
@@ -90,6 +91,7 @@ a:hover {
     height: 100%;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 .changeImg .dir {
@@ -406,7 +408,7 @@ a:hover {
 @media screen and (min-width:850px) and (max-width:965px){
     /* 咖啡机 */
     .machineText{
-        padding-top:20%;
+        padding-top: 20%;
         background: rgb(40,126,32) url("../images/coffee2.png") no-repeat center 15%;
     }
 
